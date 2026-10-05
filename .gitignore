@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded and generated models (fetch with: uv run download_models.py)
+models/
+
+# Runtime output: event log and camera snapshots of the driver
+logs/
+
+# Quantization: intermediate conversions and calibration data
+quantize/work/
+quantize/calib/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
